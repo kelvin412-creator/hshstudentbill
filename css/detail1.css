@@ -1,0 +1,264 @@
+
+*{  margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+}
+
+.logo img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding: 1% 1% 0.5% 1%;
+
+	
+}
+.header{
+	width: 80%;
+	background-color: rgb(31, 45, 63);
+	
+}
+.header1{
+	display: flex;
+	margin: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.header1 h1{
+	color:rgba(241, 186,85,1);
+	margin: auto;
+}
+.content{
+	height: 15%;
+}
+.about{
+	margin: 1% 3% 0% 25%;
+	text-align: right;	
+}
+.about a{
+	text-decoration: none;
+	color: gray;
+	padding: 0.5rem 1rem;
+	margin-right: 2rem;
+	font-size: 1.2rem;
+    display:inline-block;
+    text-shadow: 1px 1px 1px black;
+}
+.about a:hover{
+	background: rgba(220,220,220,0.5);
+	border-radius: 20px;
+
+}
+.content .job{
+	padding-top: 0.5%;
+	font-size:1rem
+}
+.all{
+	display: flex;
+	min-height: 100vh;
+}
+.job span{
+	text-align: right;
+	
+}
+.sidebar{
+width: 20%;
+min-height: 100vh;
+}
+.sidebar .bar1{
+	
+	background-color: rgb(40, 64, 95);
+	color: whitesmoke;
+	padding-top: 5%;
+	padding-bottom:5%;
+	text-align: center;
+	height: 5%;
+}
+.bar1 i{
+	margin-right: 2%;
+
+}
+
+
+.sidebar .bar2{
+	
+	height: 100%;
+	background-color: rgb(31, 45, 63);
+	border: 2px solid orange;
+}
+.bar2 hr{
+	color: orange;
+}
+.bar2 a{
+
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.list{
+	padding: 2rem;
+}
+
+.list:hover{
+	background-color: rgb(35, 60, 90);
+}
+.body{
+
+	width: 100%;
+	background-color: whitesmoke;
+	height: 95%;
+	text-align: center;
+}
+.body h2{
+	padding-bottom: 5%
+}
+.label{
+	text-align: justify;
+	font-size: 1.2rem;
+	
+	margin: auto;
+	
+	width: 40%;
+	color: black;
+
+
+}
+
+
+.label input{
+	background-color: rgb(122,145,169);
+	font-size: 1rem;
+	color: black;
+	
+	outline: 0;
+	border-radius:5px;
+	border: 2px solid white;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;}
+
+.submit{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+	margin-right: 20%;
+}
+.submit button{
+	padding: 1.5%	4% 1.5% 4%;
+	margin-right: 5%;
+}
+.body hr{
+	border: 3px solid rgb(40, 64, 95);	
+}
+h2{
+	padding-top: 5%;
+}
+table{
+	margin-top: 2%;
+	width: 100%;
+	border: 1px black solid;
+	border-spacing: 0;
+	border-radius: 5px;
+}
+table thead{
+	background-color:rgb(122,145,169);
+	border-bottom: 1px black solid;
+}
+thead td{
+	padding: 1rem;
+	color: black;
+	border-bottom: 1px black solid;
+}
+table tbody{
+	background-color: whitesmoke;
+}
+td a{
+	text-decoration: none;
+	
+}
+tbody td{
+	padding: 1rem;
+}
+.secondBar{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: center;
+	color:white;
+}
+.secondBar .b1{
+	width: 250px;
+	padding: 2rem;
+	height: 50px;
+	margin: auto;
+	background-color: rgb(198, 198, 22);
+	border-radius: 20px;
+
+}
+
+.secondBar .b2{
+	width: 250px;
+	padding: 2rem;
+	align-items: center;
+	height: 50px;
+	margin: auto;
+	background-color:greenyellow;
+	border-radius: 20px;
+}
+.secondBar .b3{
+	width: 250px;
+	padding: 2rem;
+	height: 50px;
+	margin: auto;
+	background-color: lightskyblue;
+	border-radius: 20px;
+
+}
+.studentDetail{
+	margin: auto;
+	margin-bottom: 3%;
+	
+}
+.firstBar{
+	text-align: left;
+	height: 80px;
+	margin-left: 8%;
+	padding-top: 3%;
+	color: black;
+
+}
+.addbtn{
+	background-color: orange;
+	border-radius: 15px;
+	padding: 1rem;
+	margin: 3% 2% 3% 60%;
+}
+.addbtn a{
+	text-decoration: none;
+	color: white;
+	
+}
+.container{
+	display: flex;
+}
+.cashBtn a{
+	text-decoration: none;
+	color: black;
+	float: left;
+	padding: 1rem 2rem 0.5rem 2rem;
+    border-radius: 10px 10px 0 0;
+
+}
+.cashIn1{
+	background: rgba(220,220, 220, 0.5);
+}
